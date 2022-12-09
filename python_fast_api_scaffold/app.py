@@ -23,18 +23,18 @@ def read(*paths, **kwargs):
 
 
 description = """
-project_name API helps you do awesome stuff. 🚀
+python_fast_api_scaffold API helps you do awesome stuff. 🚀
 """
 
 app = FastAPI(
-    title="project_name",
+    title="python_fast_api_scaffold",
     description=description,
     version=read("VERSION"),
-    terms_of_service="http://project_name.com/terms/",
+    terms_of_service="http://python_fast_api_scaffold.com/terms/",
     contact={
-        "name": "author_name",
-        "url": "http://project_name.com/contact/",
-        "email": "author_name@project_name.com",
+        "name": "pruthvi2103",
+        "url": "http://python_fast_api_scaffold.com/contact/",
+        "email": "pruthvi2103@python_fast_api_scaffold.com",
     },
     license_info={
         "name": "The Unlicense",
